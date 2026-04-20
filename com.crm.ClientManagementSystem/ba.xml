@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.ClientManagementSystem.Organization.update"/>
+      <class name="com.crm.ClientManagementSystem.Organization.delete"/>
+      <class name="com.crm.ClientManagementSystem.Organization.modify"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
