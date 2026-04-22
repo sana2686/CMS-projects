@@ -2,21 +2,18 @@ package com.crm.ClientManagementSystem.Organization;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.ClientManagementSystem.GenericLibrary.BaseClass;
 import com.crm.ClientManagementSystem.GenericLibrary.FileUtils;
 import com.crm.ClientManagementSystem.GenericLibrary.Javautility;
-import com.crm.ClientManagementSystem.GenericLibrary.ListernerImplementation;
-import com.crm.ClientManagementSystem.GenericLibrary.SeliniumUtility;
 
 import ObjectRepository.ContactPage;
 import ObjectRepository.Homepages;
-@Listeners(ListernerImplementation.class)
 
-public class ContactDetails_less_code  extends BaseClass{
+public class ContactlesscodeTest extends BaseClass{
+	
+	
 	@Test
 	public void create_new() throws IOException, InterruptedException {
 		Homepages hp=new Homepages(d);
@@ -52,3 +49,9 @@ public class ContactDetails_less_code  extends BaseClass{
 	
 
 }
+
+	
+
+
+
+

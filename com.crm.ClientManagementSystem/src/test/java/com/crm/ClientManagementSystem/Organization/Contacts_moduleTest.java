@@ -17,7 +17,7 @@ import ObjectRepository.OrganizationPage;
 import ObjectRepository.contact_page;
 @Listeners(ListernerImplementation.class)
 
-public class Contacts_module extends BaseClass {
+public class Contacts_moduleTest extends BaseClass {
 	@Test
 	public void Create() throws IOException, InterruptedException {
 		
@@ -79,17 +79,6 @@ public class Contacts_module extends BaseClass {
 		op.getDesp().sendKeys(desp);
 		Thread.sleep(2000);
 		
-
-		
-		
-				
-		
-		
-		
-		
-		
-	
-	
 
 }
 }

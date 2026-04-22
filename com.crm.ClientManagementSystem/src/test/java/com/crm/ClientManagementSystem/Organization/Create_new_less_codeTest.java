@@ -14,7 +14,7 @@ import com.crm.ClientManagementSystem.GenericLibrary.ListernerImplementation;
 import ObjectRepository.Homepages;
 import ObjectRepository.OrganizationPage;
 @Listeners(ListernerImplementation.class)
-public class Create_new_less_code extends BaseClass {
+public class Create_new_less_codeTest extends BaseClass {
 	@Test
 	public void Create() throws IOException {
 		

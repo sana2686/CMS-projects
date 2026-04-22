@@ -20,58 +20,58 @@
       <![CDATA[database is disconnected sucessfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-04-20T11:01:22 IST" name="Default suite" finished-at="2026-04-20T11:02:14 IST" duration-ms="51048">
+  <suite started-at="2026-04-22T06:21:22 IST" name="Default suite" finished-at="2026-04-22T06:22:03 IST" duration-ms="41398">
     <groups>
     </groups>
-    <test started-at="2026-04-20T11:01:22 IST" name="Default test" finished-at="2026-04-20T11:02:14 IST" duration-ms="51048">
-      <class name="com.crm.ClientManagementSystem.Organization.ContactDetails_less_code">
-        <test-method is-config="true" signature="connectingwithdatabase()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactDetails_less_code@5c671d7f]" started-at="2026-04-20T11:01:22 IST" name="connectingwithdatabase" finished-at="2026-04-20T11:01:22 IST" duration-ms="40" status="PASS">
+    <test started-at="2026-04-22T06:21:22 IST" name="Default test" finished-at="2026-04-22T06:22:03 IST" duration-ms="41398">
+      <class name="com.crm.ClientManagementSystem.Organization.ContactlesscodeTest">
+        <test-method is-config="true" signature="connectingwithdatabase()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactlesscodeTest@2e377400]" started-at="2026-04-22T06:21:22 IST" name="connectingwithdatabase" finished-at="2026-04-22T06:21:22 IST" duration-ms="29" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[database connected]]>
             </line>
           </reporter-output>
         </test-method> <!-- connectingwithdatabase -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactDetails_less_code@5c671d7f]" started-at="2026-04-20T11:01:23 IST" name="launchBrowser" finished-at="2026-04-20T11:01:28 IST" duration-ms="4380" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactlesscodeTest@2e377400]" started-at="2026-04-22T06:21:22 IST" name="launchBrowser" finished-at="2026-04-22T06:21:26 IST" duration-ms="4049" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[launch the Browser sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoCMS()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactDetails_less_code@5c671d7f]" started-at="2026-04-20T11:01:28 IST" name="logintoCMS" finished-at="2026-04-20T11:01:31 IST" duration-ms="3421" status="PASS">
+        <test-method is-config="true" signature="logintoCMS()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactlesscodeTest@2e377400]" started-at="2026-04-22T06:21:26 IST" name="logintoCMS" finished-at="2026-04-22T06:21:29 IST" duration-ms="2966" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logged in sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logintoCMS -->
-        <test-method signature="create_new()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactDetails_less_code@5c671d7f]" started-at="2026-04-20T11:01:31 IST" name="create_new" finished-at="2026-04-20T11:02:10 IST" duration-ms="38953" status="PASS">
+        <test-method signature="create_new()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactlesscodeTest@2e377400]" started-at="2026-04-22T06:21:29 IST" name="create_new" finished-at="2026-04-22T06:22:01 IST" duration-ms="32444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_new -->
-        <test-method is-config="true" signature="logoutCMS()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactDetails_less_code@5c671d7f]" started-at="2026-04-20T11:02:10 IST" name="logoutCMS" finished-at="2026-04-20T11:02:13 IST" duration-ms="2467" status="PASS">
+        <test-method is-config="true" signature="logoutCMS()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactlesscodeTest@2e377400]" started-at="2026-04-22T06:22:01 IST" name="logoutCMS" finished-at="2026-04-22T06:22:03 IST" duration-ms="1536" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logged out sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logoutCMS -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactDetails_less_code@5c671d7f]" started-at="2026-04-20T11:02:13 IST" name="closeBrowser" finished-at="2026-04-20T11:02:14 IST" duration-ms="981" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactlesscodeTest@2e377400]" started-at="2026-04-22T06:22:03 IST" name="closeBrowser" finished-at="2026-04-22T06:22:03 IST" duration-ms="320" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[close the browser sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="disconnectedWithDatabase()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactDetails_less_code@5c671d7f]" started-at="2026-04-20T11:02:14 IST" name="disconnectedWithDatabase" finished-at="2026-04-20T11:02:14 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="disconnectedWithDatabase()[pri:0, instance:com.crm.ClientManagementSystem.Organization.ContactlesscodeTest@2e377400]" started-at="2026-04-22T06:22:03 IST" name="disconnectedWithDatabase" finished-at="2026-04-22T06:22:03 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[database is disconnected sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- disconnectedWithDatabase -->
-      </class> <!-- com.crm.ClientManagementSystem.Organization.ContactDetails_less_code -->
+      </class> <!-- com.crm.ClientManagementSystem.Organization.ContactlesscodeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

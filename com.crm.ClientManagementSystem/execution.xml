@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.ClientManagementSystem.Organization.update"/>
+      <class name="com.crm.ClientManagementSystem.Organization.CreateOrganization"/>
+      <class name="com.crm.ClientManagementSystem.Organization.Newclass"/>
+      <class name="com.crm.ClientManagementSystem.Organization.parallel1"/>
+      <class name="com.crm.ClientManagementSystem.Organization.parallel2"/>
+      <class name="com.crm.ClientManagementSystem.Organization.Create_new_less_codeTest"/>
+      <class name="com.crm.ClientManagementSystem.Organization.Contact_delete"/>
+      <class name="com.crm.ClientManagementSystem.Organization.Contacts_moduleTest"/>
+      <class name="com.crm.ClientManagementSystem.Organization.delete"/>
+      <class name="com.crm.ClientManagementSystem.Organization.modify"/>
+      <class name="com.crm.ClientManagementSystem.Organization.Contact_less_codeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

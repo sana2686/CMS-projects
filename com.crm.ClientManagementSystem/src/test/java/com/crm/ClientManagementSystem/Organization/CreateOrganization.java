@@ -3,17 +3,14 @@ package com.crm.ClientManagementSystem.Organization;
 import java.io.IOException;
 
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.ClientManagementSystem.GenericLibrary.BaseClass;
 import com.crm.ClientManagementSystem.GenericLibrary.FileUtils;
-import com.crm.ClientManagementSystem.GenericLibrary.ListernerImplementation;
 import com.crm.ClientManagementSystem.GenericLibrary.SeliniumUtility;
 
 import ObjectRepository.Homepages;
 import ObjectRepository.OrganizationPage;
-@Listeners(ListernerImplementation.class)
 
 public class CreateOrganization extends BaseClass {
 	@Test
@@ -54,3 +51,5 @@ public class CreateOrganization extends BaseClass {
 	}
 
 }
+
+
