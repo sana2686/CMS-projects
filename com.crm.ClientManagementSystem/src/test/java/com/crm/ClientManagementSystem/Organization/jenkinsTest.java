@@ -9,5 +9,8 @@ public class jenkinsTest {
 		Reporter.log("jenkins is executed by git",true);
 		
 	}
+	public void create() {
+		Reporter.log("jenkins is running ",true);
+	}
 
 }
